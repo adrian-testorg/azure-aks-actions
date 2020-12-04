@@ -9,7 +9,7 @@ This sample creates a multi-container application in an Azure Kubernetes Service
 1) Fork this repo.
 2) Create a free Azure Account with $200 credit (you can use your GitHub account): https://azure.microsoft.com/en-us/free/
 3) Go to the Azure Portal: https://ms.portal.azure.com/#home and open the Cloud Shell.
-4) Create a resource group
+4) Create a resource group 
 ```
 az group create --name <RESOURCEGROUPNAME> --location westeurope
 ```
