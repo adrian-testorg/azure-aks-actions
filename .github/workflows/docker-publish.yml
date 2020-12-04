@@ -72,7 +72,7 @@ jobs:
         manifests: |
           manifests/azure-vote.yaml
         images: |
-          ghcr.io/faten-org/azure-vote:${{ github.sha }}
+          ghcr.io/adrian-testorg/azure-vote:${{ github.sha }}
         namespace: ${{ env.NAMESPACE }}
         # strategy: canary
         # percentage: 20
