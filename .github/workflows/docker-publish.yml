@@ -10,7 +10,7 @@ on:
 
     # Publish `v1.2.3` tags as releases.
     tags:
-      - v1.1
+      - v*
 
 env:
   IMAGE_NAME: azure-vote
